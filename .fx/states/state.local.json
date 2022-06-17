@@ -1,0 +1,16 @@
+{
+    "solution": {
+        "teamsAppTenantId": "87a31541-4a2b-495f-9a41-c76d12bb0a49"
+    },
+    "fx-resource-frontend-hosting": {
+        "indexPath": "/index.html#",
+        "endpoint": "https://localhost:53000",
+        "domain": "localhost",
+        "sslCertFile": "C:/Users/temka/.fx/certificate/localhost.crt",
+        "sslKeyFile": "C:/Users/temka/.fx/certificate/localhost.key"
+    },
+    "fx-resource-appstudio": {
+        "teamsAppUpdatedAt": 1655493003023,
+        "teamsAppId": "64cfa24e-e9cf-448d-8078-d6015beeeb32"
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "solution": {
+        "teamsAppTenantId": "87a31541-4a2b-495f-9a41-c76d12bb0a49",
+        "subscriptionId": "a69f1386-595c-46df-87c5-e3c0462c959f",
+        "subscriptionName": "Azure subscription 1",
+        "tenantId": "ca04538b-f5a1-44f7-b02f-7e6dd05c011f",
+        "needCreateResourceGroup": false,
+        "resourceGroupName": "hackathon-codex",
+        "location": "eastus",
+        "resourceNameSuffix": "cb07f2",
+        "provisionSucceeded": true
+    },
+    "fx-resource-appstudio": {
+        "tenantId": "87a31541-4a2b-495f-9a41-c76d12bb0a49",
+        "teamsAppId": "bb66fa4d-9afb-4da3-a656-61a5adc83841",
+        "teamsAppUpdatedAt": 1655493594695
+    },
+    "fx-resource-identity": {
+        "identityName": "ateachalledev7047a4",
+        "identityResourceId": "/subscriptions/a69f1386-595c-46df-87c5-e3c0462c959f/resourceGroups/hackathon-codex/providers/Microsoft.ManagedIdentity/userAssignedIdentities/ateachalledev7047a4",
+        "identityClientId": "f18e3471-2048-48a0-84ec-1fc4749883cb"
+    },
+    "fx-resource-frontend-hosting": {
+        "domain": "ateachalledev7047a4tab.z13.web.core.windows.net",
+        "endpoint": "https://ateachalledev7047a4tab.z13.web.core.windows.net",
+        "indexPath": "/index.html#",
+        "storageResourceId": "/subscriptions/a69f1386-595c-46df-87c5-e3c0462c959f/resourceGroups/hackathon-codex/providers/Microsoft.Storage/storageAccounts/ateachalledev7047a4tab"
+    },
+    "fx-resource-cicd": {},
+    "fx-resource-api-connector": {}
+}
