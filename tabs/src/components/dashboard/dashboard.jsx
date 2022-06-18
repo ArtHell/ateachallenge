@@ -85,13 +85,21 @@ export const Dashboard = (props) => {
           <TableCell key={'meeting-name-header'} content={'Meeting Name'} />
           <TableCell key={'meeting-host-header'} content={'Meeting Host'} />
           <TableCell key={'meeting-date-header'} content={'Meeting Date'} />
-          <TableCell key={'meeting-action-header'} style={{justifyContent: 'right'}} content={<DialogExample />} />
+          <TableCell key={'meeting-action-header'} style={{ justifyContent: 'right' }} content={<DialogExample />} />
         </TableRow>
         {summaries.map((x, i) => <TableRow key={x.key} items={x.items} style={{ backgroundColor: '#F5F5F5' }}>
           <TableCell key={`meeting-name-${i}`} content={x.meetingName} />
           <TableCell key={`meeting-host-${i}`} content={x.host} />
           <TableCell key={`meeting-date-${i}`} content={x.meetingDate} />
-          <TableCell key={`meeting-action-${i}`} style={{justifyContent: 'right'}} content={<Popup trigger={<Button iconOnly text icon={<MoreIcon  />} title="Show popup" />} content="Hello from popup!" />}/>
+          <TableCell key={`meeting-action-${i}`} style={{ justifyContent: 'right' }} content={<Popup trigger={<Button iconOnly text icon={<MoreIcon />} title="Show popup" />} content={
+            <React.Fragment>
+              <Button iconOnly text icon={<EyeIcon />} iconOnly title="View" />
+              <Button iconOnly text icon={<EditIcon />} iconOnly title="Edit" />
+              <Button iconOnly text icon={<ShareGenericIcon />} iconOnly title="Share" />
+              <Button iconOnly text icon={<TrashCanIcon />} iconOnly title="Remove" />
+            </React.Fragment>
+
+          } />} />
         </TableRow>)}
       </Table>
     </div>
