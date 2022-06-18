@@ -7,6 +7,8 @@ import TermsOfUse from "./TermsOfUse";
 import Tab from "./Tab";
 import "./App.css";
 import TabConfig from "./TabConfig";
+import SummaryView from './singleSummaryView/viewOnly/summaryView'
+import SummaryEdit from "./singleSummaryView/editAllowed/summaryEdit";
 import { useTeams } from "msteams-react-base-component";
 
 /**
@@ -26,6 +28,8 @@ export default function App() {
           <Route exact path="/termsofuse" component={TermsOfUse} />
           <Route exact path="/tab" component={Tab} />
           <Route exact path="/config" component={TabConfig} />
+          <Route exact path="/view-summary/:id" component={SummaryView}/>
+          <Route exact path="/edit-summary/:id" component={SummaryEdit}/>
         </>
       </Router>
     </Provider>
