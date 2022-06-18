@@ -6,6 +6,8 @@ import Privacy from "./Privacy";
 import TermsOfUse from "./TermsOfUse";
 import "./App.css";
 import TabConfig from "./TabConfig";
+import SummaryView from './singleSummaryView/viewOnly/summaryView'
+import SummaryEdit from "./singleSummaryView/editAllowed/summaryEdit";
 import { useTeams } from "msteams-react-base-component";
 import { Dashboard } from "./dashboard/dashboard";
 
@@ -26,6 +28,8 @@ export default function App() {
           <Route exact path="/termsofuse" component={TermsOfUse} />
           <Route exact path="/dashboard" component={Dashboard} />
           <Route exact path="/config" component={TabConfig} />
+          <Route exact path="/view-summary/:id" component={SummaryView}/>
+          <Route exact path="/edit-summary/:id" component={SummaryEdit}/>
         </>
       </Router>
     </Provider>

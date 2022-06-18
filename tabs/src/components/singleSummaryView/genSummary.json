@@ -1,0 +1,42 @@
+{
+  "info": {
+    "id": "jgfdsgf87w658y3q2kjkfdshgfjsdgl",
+    "meetingName": "Meeting name some",
+    "meetingLink": "doc/meet/saved",
+    "meetingDate": "2022-6-18",
+    "owner": "kjdskfhskdhf7",
+    "participants": [
+      "PERSON A",
+      "PERSON B",
+      "PERSON C",
+      "PERSON D",
+      "PERSON E"
+    ]
+  },
+  "sections": [
+    {
+      "sectionName": "Section 1",
+      "summary": [
+        "Welcome to our tech Arctic Architecture Council.",
+        "We didn't review of the SO  assessment needed by PERSON B. PERSON B went to portfolio council afterwards to present it and get whitelisting.",
+        "So today we have full whitelisting log, SO from Portfolio Council as well, and the implementation is processing.",
+        "And first one in June this year."
+      ]
+    },
+    {
+      "sectionName": "Section 2",
+      "summary": [
+        "We didn't review of the SO  assessment needed by PERSON B. PERSON B went to portfolio council afterwards to present it and get whitelisting.",
+        "So today we have full whitelisting log, SO from Portfolio Council as well, and the implementation is processing."
+      ]
+    },
+    {
+      "sectionName": "Section 3",
+      "summary": [
+        "We didn't review of the SO  assessment needed by PERSON B. PERSON B went to portfolio council afterwards to present it and get whitelisting.",
+        "So today we have full whitelisting log, SO from Portfolio Council as well, and the implementation is processing.",
+        "And first one in June this year."
+      ]
+    }
+  ]
+}
