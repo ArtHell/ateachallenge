@@ -38,9 +38,9 @@
     "staticTabs": [
         {
             "entityId": "index",
-            "name": "Personal Tab",
-            "contentUrl": "https://localhost:53000/index.html#/tab",
-            "websiteUrl": "https://localhost:53000/index.html#/tab",
+            "name": "Dashboard",
+            "contentUrl": "https://localhost:53000/index.html#/dashboard",
+            "websiteUrl": "https://localhost:53000/index.html#/dashboard",
             "scopes": [
                 "personal"
             ]
