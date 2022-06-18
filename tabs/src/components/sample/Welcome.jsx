@@ -1,21 +1,23 @@
 import React, { useState } from "react";
-import { Image, Menu } from "@fluentui/react-northstar";
+import { Menu } from "@fluentui/react-northstar";
+// import { Image } from "@fluentui/react-northstar";
 import "./Welcome.css";
-import { EditCode } from "./EditCode";
+// import { EditCode } from "./EditCode";
 import { Deploy } from "./Deploy";
 import { Publish } from "./Publish";
-import { AddSSO } from "./AddSSO";
+// import { AddSSO } from "./AddSSO";
+import { Dashboard } from "../dashboard/dashboard"
 
 export function Welcome(props) {
-  const { environment } = {
-    environment: window.location.hostname === "localhost" ? "local" : "azure",
-    ...props,
-  };
-  const friendlyEnvironmentName =
-    {
-      local: "local environment",
-      azure: "Azure environment",
-    }[environment] || "local environment";
+  // const { environment } = {
+  //   environment: window.location.hostname === "localhost" ? "local" : "azure",
+  //   ...props,
+  // };
+  // const friendlyEnvironmentName =
+  //   {
+  //     local: "local environment",
+  //     azure: "Azure environment",
+  //   }[environment] || "local environment";
 
   const steps = ["local", "azure", "publish"];
   const friendlyStepsName = {
@@ -35,15 +37,14 @@ export function Welcome(props) {
   return (
     <div className="welcome page">
       <div className="narrow page-padding">
-        <Image src="hello.png" />
+        {/* <Image src="hello.png" />
         <h1 className="center">Congratulations!</h1>
-        <p className="center">Your app is running in your {friendlyEnvironmentName}</p>
+        <p className="center">Your app is running in your {friendlyEnvironmentName}</p> */}
         <Menu defaultActiveIndex={0} items={items} underlined secondary />
         <div className="sections">
           {selectedMenuItem === "local" && (
             <div>
-              <EditCode />
-              <AddSSO />
+              <Dashboard/>
             </div>
           )}
           {selectedMenuItem === "azure" && (
