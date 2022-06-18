@@ -10,7 +10,7 @@ const InfoCard = () => {
             <div className='info-date'>{genSummary.info.meetingDate}</div>
             <div className='info-participants'>Participants:&nbsp;
                     {genSummary.info.participants.map(participant =>
-                        <span>{participant}, </span>
+                        <span key={participant}>{participant}, </span>
                     )}
             </div>
             <div><a href="1">{genSummary.info.meetingLink}</a></div>

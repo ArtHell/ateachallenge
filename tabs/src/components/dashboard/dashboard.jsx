@@ -7,11 +7,7 @@ import {
 } from '@fluentui/accessibility'
 import { useState } from 'react';
 import {
-  MoreIcon,
-  PauseIcon,
-  PlayIcon,
-  StrikeIcon,
-  ItalicIcon,
+  MoreIcon
 } from '@fluentui/react-icons-northstar';
 
 export const Dashboard = (props) => {
@@ -93,10 +89,10 @@ export const Dashboard = (props) => {
           <TableCell key={`meeting-date-${i}`} content={x.meetingDate} />
           <TableCell key={`meeting-action-${i}`} style={{ justifyContent: 'right' }} content={<Popup trigger={<Button iconOnly text icon={<MoreIcon />} title="Show popup" />} content={
             <React.Fragment>
-              <Button iconOnly text icon={<EyeIcon />} iconOnly title="View" />
-              <Button iconOnly text icon={<EditIcon />} iconOnly title="Edit" />
-              <Button iconOnly text icon={<ShareGenericIcon />} iconOnly title="Share" />
-              <Button iconOnly text icon={<TrashCanIcon />} iconOnly title="Remove" />
+              <Button iconOnly text icon={<EyeIcon />} title="View" />
+              <Button iconOnly text icon={<EditIcon />} title="Edit" />
+              <Button iconOnly text icon={<ShareGenericIcon />} title="Share" />
+              <Button iconOnly text icon={<TrashCanIcon />} title="Remove" />
             </React.Fragment>
 
           } />} />
