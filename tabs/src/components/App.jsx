@@ -44,8 +44,8 @@ export default function App() {
               <Route exact path="/termsofuse" component={TermsOfUse} />
               <Route exact path="/dashboard" component={Dashboard} />
               <Route exact path="/config" component={TabConfig} />
-              <Route exact path="/view-summary/:id" component={SummaryView} />
-              <Route exact path="/edit-summary/:id" component={SummaryEdit} />
+              <Route exact path="/view-summary" component={SummaryView} />
+              <Route exact path="/edit-summary" component={SummaryEdit} />
               <Route exact path='/config-transcript' component={ConfigStep}/>
             </>
           </Router>

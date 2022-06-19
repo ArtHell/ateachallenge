@@ -7,7 +7,7 @@ import { useState } from 'react'
 import SharingForm from './sharingForm'
 import SharingHeader from './sharingHeader'
 
-const SharePopup = ({saveSummary}) => {
+export const SharePopup = ({triggerButton}) => {
   const [open, setOpen] = useState(false)
   return (
     <Dialog
@@ -21,7 +21,7 @@ const SharePopup = ({saveSummary}) => {
         title: 'Close',
         onClick: () => setOpen(false),
       }}
-      trigger={<Button content="Create" onClick={saveSummary} />}
+      trigger={triggerButton}
     />
   )
 }

@@ -24,7 +24,7 @@ const ConfigStep = () => {
     console.log(payload);
     const result = await buildSummary(payload);
     setContext({...context, summary: result.data});
-    history.push("/edit-summary/new");
+    history.push("/edit-summary");
   }
 
   useEffect(() => {

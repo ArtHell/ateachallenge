@@ -3,17 +3,22 @@ import "./dashboard.css";
 import UploadTranscriptPopup from './uploadTranscriptPopup';
 import { Button, ShareGenericIcon, EditIcon, EyeIcon, TrashCanIcon, Table, TableRow, TableCell, Popup } from '@fluentui/react-northstar'
 import { useState, useEffect, useContext } from 'react';
+import { useHistory } from "react-router-dom";
 import {
   MoreIcon
 } from '@fluentui/react-icons-northstar';
 import { getSummary } from '../../services/summaryService';
 import { TeamsContext } from "../context";
 import moment from 'moment';
+import { AppContext } from '../context';
+import SharePopup from '../sharingPopup/sharePopup';
 
 export const Dashboard = (props) => {
   const [loading, setLoading] = useState(true);
   const [data, setData] = useState([]);
   const teamsContext = useContext(TeamsContext);
+  const [context, setContext] = useContext(AppContext);
+  const history = useHistory();
 
   useEffect(() => {
     if(!teamsContext) return;
@@ -31,6 +36,18 @@ export const Dashboard = (props) => {
 
     fetchData();
   }, [teamsContext]);
+
+  const viewSummary = (i) => {
+    const summary = data[i].item;
+    setContext({...context, summary: summary.summary, meetingName: summary.meetingName, meetingLink: summary.meetingLink, participants: summary.participants});
+    history.push("/view-summary");
+  };
+
+  const editSummary = (i) => {
+    const summary = data[i].item;
+    setContext({...context, summary: summary.summary, meetingName: summary.meetingName, meetingLink: summary.meetingLink, participants: summary.participants});
+    history.push("/edit-summary");
+  };
 
   return (
     <div style={{ paddingLeft: '280px', paddingRight: '280px', paddingTop: '20px' }}>
@@ -54,9 +71,9 @@ export const Dashboard = (props) => {
           <TableCell key={`meeting-date-${i}`} content={moment(x.item.meetingDate).toLocaleString()} />
           <TableCell key={`meeting-action-${i}`} style={{ justifyContent: 'right' }} content={<Popup trigger={<Button iconOnly text icon={<MoreIcon />} title="Show popup" />} content={
             <React.Fragment>
-              <Button iconOnly text icon={<EyeIcon />} title="View" />
-              <Button iconOnly text icon={<EditIcon />} title="Edit" />
-              <Button iconOnly text icon={<ShareGenericIcon />} title="Share" />
+              <Button onClick={() => viewSummary(i)} iconOnly text icon={<EyeIcon />} title="View" />
+              <Button onClick={() => editSummary(i)} iconOnly text icon={<EditIcon />} title="Edit" />
+              <SharePopup triggerButton={<Button iconOnly text icon={<ShareGenericIcon />} title="Share" />} />
               <Button iconOnly text icon={<TrashCanIcon />} title="Remove" />
             </React.Fragment>
 
