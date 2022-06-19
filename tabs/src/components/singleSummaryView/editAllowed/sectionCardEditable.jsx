@@ -7,7 +7,7 @@ const SectionCardEditable = ({section}) => {
             <input className='section-title' type="text" defaultValue={section.sectionName}/>
             <ul>
                 {section.summary.map(el =>
-                    <li className='edit-section-item'><textarea cols={85} rows={3} defaultValue={el}/></li>
+                    <li key={el} className='edit-section-item'><textarea cols={85} rows={3} defaultValue={el}/></li>
                 )}
             </ul>
         </div>

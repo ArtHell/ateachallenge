@@ -7,7 +7,7 @@ const Sectioncard = ({ section }) => {
             <div className='section-title'>{section.sectionName}</div>
             <ul>
                 {section.summary.map(el =>
-                    <li className='section-item'>{el}</li>
+                    <li key={el} className='section-item'>{el}</li>
                 )}
             </ul>
         </div>

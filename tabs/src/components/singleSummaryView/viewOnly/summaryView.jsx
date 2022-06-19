@@ -8,7 +8,7 @@ const SummaryView = () => {
     return (
         <div className='summary-view'>
             <InfoCard />
-            {genSummary.sections.map(sec => <Sectioncard section={sec}/>)}
+            {genSummary.sections.map(sec => <Sectioncard key={sec.sectionName} section={sec}/>)}
         </div>
     );
 };

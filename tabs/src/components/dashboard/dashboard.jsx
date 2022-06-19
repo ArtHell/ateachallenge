@@ -7,11 +7,7 @@ import {
 } from '@fluentui/accessibility'
 import { useState, useEffect, useContext } from 'react';
 import {
-  MoreIcon,
-  PauseIcon,
-  PlayIcon,
-  StrikeIcon,
-  ItalicIcon,
+  MoreIcon
 } from '@fluentui/react-icons-northstar';
 import { buildSummary, getSummary } from '../../services/summaryService';
 import { TeamsContext } from "../context";
