@@ -5,7 +5,7 @@ import { Button, Flex, ShareGenericIcon, EditIcon, EyeIcon, TrashCanIcon, Table,
 import {
   gridCellMultipleFocusableBehavior,
 } from '@fluentui/accessibility'
-import { useState } from 'react';
+import { useState, useEffect, useContext } from 'react';
 import {
   MoreIcon,
   PauseIcon,
@@ -13,8 +13,32 @@ import {
   StrikeIcon,
   ItalicIcon,
 } from '@fluentui/react-icons-northstar';
+import { buildSummary, getSummary } from '../../services/summaryService';
+import { TeamsContext } from "../context";
 
 export const Dashboard = (props) => {
+  const [loading, setLoading] = useState(true);
+  const [data, setData] = useState([]);
+  const teamsContext = useContext(TeamsContext);
+
+  useEffect(() => {
+    if(!teamsContext) return;
+    const fetchData = async () =>{
+      setLoading(true);
+      try {
+        const response = await getSummary(teamsContext.userPrincipalName);
+        setData(response.data);
+        console.log('resp');
+      } catch (error) {
+        console.error(error.message);
+      }
+      setLoading(false);
+    }
+
+    fetchData();
+  }, [teamsContext]);
+
+
   const [menuOpen, setMenuOpen] = React.useState(false)
   const moreActionCell = {
     content: (
@@ -74,6 +98,7 @@ export const Dashboard = (props) => {
 
   return (
     <div style={{ paddingLeft: '280px', paddingRight: '280px', paddingTop: '20px' }}>
+      
       <Table
         variables={{
           cellContentOverflow: 'none',
@@ -87,16 +112,16 @@ export const Dashboard = (props) => {
           <TableCell key={'meeting-date-header'} content={'Meeting Date'} />
           <TableCell key={'meeting-action-header'} style={{ justifyContent: 'right' }} content={<DialogExample />} />
         </TableRow>
-        {summaries.map((x, i) => <TableRow key={x.key} items={x.items} style={{ backgroundColor: '#F5F5F5' }}>
+        {!data || !data.length ? '' : data.map((x, i) => <TableRow key={`summary-row-${i}`} style={{ backgroundColor: '#F5F5F5' }}>
           <TableCell key={`meeting-name-${i}`} content={x.meetingName} />
           <TableCell key={`meeting-host-${i}`} content={x.host} />
-          <TableCell key={`meeting-date-${i}`} content={x.meetingDate} />
+          <TableCell key={`meeting-date-${i}`} content={x.meetingDate.toString()} />
           <TableCell key={`meeting-action-${i}`} style={{ justifyContent: 'right' }} content={<Popup trigger={<Button iconOnly text icon={<MoreIcon />} title="Show popup" />} content={
             <React.Fragment>
-              <Button iconOnly text icon={<EyeIcon />} iconOnly title="View" />
-              <Button iconOnly text icon={<EditIcon />} iconOnly title="Edit" />
-              <Button iconOnly text icon={<ShareGenericIcon />} iconOnly title="Share" />
-              <Button iconOnly text icon={<TrashCanIcon />} iconOnly title="Remove" />
+              <Button iconOnly text icon={<EyeIcon />} title="View" />
+              <Button iconOnly text icon={<EditIcon />} title="Edit" />
+              <Button iconOnly text icon={<ShareGenericIcon />} title="Share" />
+              <Button iconOnly text icon={<TrashCanIcon />} title="Remove" />
             </React.Fragment>
 
           } />} />

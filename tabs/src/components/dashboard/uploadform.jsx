@@ -1,43 +1,35 @@
-import React from 'react';
-import { Form, FormInput, RadioGroup } from '@fluentui/react-northstar'
+import React, { useState } from 'react';
+import { Form, FormField, Button, Label, FormLabel, FormInput } from '@fluentui/react-northstar'
 
-const UploadForm = ({ name, type }) => {
+const UploadForm = ({ setName, setLink, setFile }) => {
+    const [fileName, setFileName] = useState('')
 
+    const onFileChange = (event) => {
+      const file = event.target.files[0];
+      setFile(file);
+      setFileName(file.name);
+    }
 
     return (
         <Form >
+            <FormLabel>{'Meeting name'}</FormLabel>
             <FormInput
-                styles={{ width: '500px' }}
-                placeholder='Link to the meeting'
-                name="meetingname"
-                id="meeting-name"
+                fluid
                 required
                 showSuccessIndicator={false}
-                onChange={(event) => name(event.target.value)}
+                onChange={(event) => setName(event.target.value)}
+                style={{ marginTop: '-16px'}}
             />
-            <RadioGroup
-                onCheckedValueChange={(e, data) => type(data.label)}
-                vertical
-                defaultCheckedValue="1"
-                items={[
-                    {
-                        key: '1',
-                        label: 'Standard meeting',
-                        value: '1',
-                    },
-                    {
-                        key: '2',
-                        label: 'Standup',
-                        value: '2',
-                    },
-                    {
-                        key: '3',
-                        label: 'Retro',
-                        value: '3',
-                    }
-                ]}
+            <FormLabel>{'Meeting link'}</FormLabel>
+            <FormInput
+                fluid
+                showSuccessIndicator={false}
+                onChange={(event) => setLink(event.target.value)}
+                style={{ marginTop: '-16px'}}
             />
-            <input type="file" />
+            {fileName ? <FormLabel>{fileName}</FormLabel> : <FormLabel>{'Choose transcript file'}</FormLabel>} 
+            <Button primary style={{ width: '100%', marginBottom: '80px', marginTop: '-20px'}} onClick={() => document.getElementById('file-input').click()}>{"Upload transcript"}<input id='file-input' type="file" hidden onChange={onFileChange} /></Button>
+            
         </Form>
     )
 
