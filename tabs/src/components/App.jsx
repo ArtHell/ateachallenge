@@ -8,6 +8,7 @@ import "./App.css";
 import TabConfig from "./TabConfig";
 import SummaryView from './singleSummaryView/viewOnly/summaryView'
 import SummaryEdit from "./singleSummaryView/editAllowed/summaryEdit";
+import ConfigStep from "./configView/configStep";
 import { useTeams } from "msteams-react-base-component";
 import { Dashboard } from "./dashboard/dashboard";
 import { TeamsContext, AppContext } from "./context";
@@ -45,6 +46,7 @@ export default function App() {
               <Route exact path="/config" component={TabConfig} />
               <Route exact path="/view-summary/:id" component={SummaryView} />
               <Route exact path="/edit-summary/:id" component={SummaryEdit} />
+          <Route exact path='/config-transcript' component={ConfigStep}/>
             </>
           </Router>
         </AppContext.Provider>

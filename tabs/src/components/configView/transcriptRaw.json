@@ -1,0 +1,1832 @@
+[
+    {
+        "start": "00:00:00",
+        "person": "PERSON A",
+        "end": "00:00:03",
+        "part": "So here we go. Welcome to our tech Arctic Architecture Council.\r"
+    },
+    {
+        "start": "00:00:03",
+        "person": "PERSON A",
+        "end": "00:00:06",
+        "part": "And first one in June this year.\r \r"
+    },
+    {
+        "start": "00:00:06",
+        "person": "PERSON A",
+        "end": "00:00:09",
+        "part": "And it's been a month since we had the last one, but just to reiterate.\r \r"
+    },
+    {
+        "start": "00:00:10",
+        "person": "PERSON A",
+        "end": "00:01:37",
+        "part": "We didn't review of the SO  assessment needed by PERSON B. PERSON B went to portfolio council afterwards to present it and get whitelisting. We got that from Denmark and Finland during the portfolio Council meeting, but Sweden and Norway had to go back to to secure that. But it came rather quickly. So today we have full whitelisting log, SO from Portfolio Council as well, and the implementation is processing.\r \r"
+    },
+    {
+        "start": "00:01:39",
+        "person": "PERSON A",
+        "end": "00:01:39",
+        "part": "Today.\r \r"
+    },
+    {
+        "start": "00:01:40",
+        "person": "PERSON A",
+        "end": "00:01:45",
+        "part": "Good. Justin, adoption platform, that's a recommendation also led by PERSON B.\r \r"
+    },
+    {
+        "start": "00:01:47",
+        "person": "PERSON A",
+        "end": "00:01:52",
+        "part": "So basically PERSON B, I think the stage is yours for a presentation and the discussion.\r \r"
+    },
+    {
+        "start": "00:01:54",
+        "person": "PERSON B",
+        "end": "00:01:01",
+        "part": "Yep, I have also invited earlier, but he notified that he'll be a few minutes late due to some.\r \r"
+    },
+    {
+        "start": "00:01:03",
+        "person": "PERSON B",
+        "end": "00:01:05",
+        "part": "Some errands that he has to run.\r \r"
+    },
+    {
+        "start": "00:01:06",
+        "person": "PERSON B",
+        "end": "00:01:08",
+        "part": "Alright, let me share.\r \r"
+    },
+    {
+        "start": "00:01:09",
+        "person": "PERSON B",
+        "end": "00:01:11",
+        "part": "Let me share my screen.\r \r"
+    },
+    {
+        "start": "00:01:24",
+        "person": "PERSON B",
+        "end": "00:01:26",
+        "part": "Let me know when you can see it.\r \r"
+    },
+    {
+        "start": "00:01:29",
+        "person": "PERSON A",
+        "end": "00:02:30",
+        "part": "Yep.\r \r"
+    },
+    {
+        "start": "00:02:31",
+        "person": "PERSON C",
+        "end": "00:02:31",
+        "part": "Yep.\r \r"
+    },
+    {
+        "start": "00:02:32",
+        "person": "PERSON B",
+        "end": "00:02:32",
+        "part": "OK.\r \r"
+    },
+    {
+        "start": "00:02:34",
+        "person": "PERSON B",
+        "end": "00:02:35",
+        "part": "Ohh really is also here. Hi.\r \r"
+    },
+    {
+        "start": "00:02:38",
+        "person": "PERSON B",
+        "end": "00:02:45",
+        "part": "OK, good. So today we're talking about the customer digital adoption platform.\r \r"
+    },
+    {
+        "start": "00:02:46",
+        "person": "PERSON B",
+        "end": "00:02:47",
+        "part": "Umm.\r \r"
+    },
+    {
+        "start": "00:02:48",
+        "person": "PERSON B",
+        "end": "00:02:49",
+        "part": "First of all.\r \r"
+    },
+    {
+        "start": "00:02:50",
+        "person": "PERSON B",
+        "end": "00:02:58",
+        "part": "I'd like to take a step back from the main topic, but to reiterate that we are surrounded by software.\r \r"
+    },
+    {
+        "start": "00:02:59",
+        "person": "PERSON B",
+        "end": "00:02:05",
+        "part": "Uh, it is everywhere we go. It is present in any kind of devices nowadays, starting from.\r \r"
+    },
+    {
+        "start": "00:02:06",
+        "person": "PERSON B",
+        "end": "00:02:17",
+        "part": "Transportation like planes, cars, uh space shuttles, you know, ending with kitchen appliances, it's everywhere and it's connected and.\r \r"
+    },
+    {
+        "start": "00:02:18",
+        "person": "PERSON B",
+        "end": "00:02:24",
+        "part": "It's getting more and more involved with with us humans and we interact.\r \r"
+    },
+    {
+        "start": "00:02:25",
+        "person": "PERSON B",
+        "end": "00:02:28",
+        "part": "With this offer everyday and the main.\r \r"
+    },
+    {
+        "start": "00:03:30",
+        "person": "PERSON B",
+        "end": "00:03:49",
+        "part": "The main the main thing is how the the quality of interaction, so whether that's efficient, how we interact it, can we adopt it, the software and the solution to our lives or can or we cannot, and that determines whether it, the product itself is good or not.\r \r"
+    },
+    {
+        "start": "00:03:50",
+        "person": "PERSON B",
+        "end": "00:03:53",
+        "part": "Whether that's suitable for us and.\r \r"
+    },
+    {
+        "start": "00:03:54",
+        "person": "PERSON B",
+        "end": "00:03:01",
+        "part": "That leads us to the term digital adoption, what it is and basically that's.\r \r"
+    },
+    {
+        "start": "00:03:02",
+        "person": "PERSON B",
+        "end": "00:03:03",
+        "part": "That is.\r \r"
+    },
+    {
+        "start": "00:03:04",
+        "person": "PERSON B",
+        "end": "00:03:18",
+        "part": "That is a way how to adopt any given resource you are presented with and make use of that to understand it and to use it to its best capability to serve your purpose.\r \r"
+    },
+    {
+        "start": "00:03:19",
+        "person": "PERSON B",
+        "end": "00:04:33",
+        "part": "It's a very long description, but the shorter one would be learning how to use anything you face and why digital. Because we are talking about software. Therefore that's digital.\r \r"
+    },
+    {
+        "start": "00:04:34",
+        "person": "PERSON B",
+        "end": "00:04:38",
+        "part": "So what articles and objectives of digital adoption?\r"
+    },
+    {
+        "start": "00:04:39",
+        "person": "PERSON B",
+        "end": "00:04:47",
+        "part": "And it's very simple. I I'm fairly certain and everyone of us have seen it. So it's the.\r \r"
+    },
+    {
+        "start": "00:04:48",
+        "person": "PERSON B",
+        "end": "00:04:51",
+        "part": "Tool tips, announcements, walkthroughs.\r \r"
+    },
+    {
+        "start": "00:04:53",
+        "person": "PERSON B",
+        "end": "00:04:57",
+        "part": "Any kind of self service functionality guidance through.\r \r"
+    },
+    {
+        "start": "00:04:57",
+        "person": "PERSON B",
+        "end": "00:04:00",
+        "part": "Ohm some features and whatnot.\r \r"
+    },
+    {
+        "start": "00:04:02",
+        "person": "PERSON B",
+        "end": "00:04:04",
+        "part": "And I know it takes for the back end users.\r \r"
+    },
+    {
+        "start": "00:04:05",
+        "person": "PERSON B",
+        "end": "00:04:05",
+        "part": "Umm.\r \r"
+    },
+    {
+        "start": "00:04:07",
+        "person": "PERSON B",
+        "end": "00:05:37",
+        "part": "So basically, I'm sure you all have seen when you install a new app on your phone for example, there's a short guide on how to use it, or when you subscribe to a new service and a web, you get this short walkthrough with highlighting the major key features. That's basically is the adoption helper. What we are talking about today. And of course there comes many benefits with such platforms or such tools or.\r \r"
+    },
+    {
+        "start": "00:05:37",
+        "person": "PERSON B",
+        "end": "00:05:07",
+        "part": "Augmenting augmentation of the existing tools we have or or customer services. Obviously we increase the efficiency of customer onboarding and therefore that increases the product or service usage. And when people are using the things we offer more, they are obviously spend more money which is good for us and they they can resolve their the challenges they faced themselves.\r \r"
+    },
+    {
+        "start": "00:05:07",
+        "person": "PERSON B",
+        "end": "00:06:33",
+        "part": "And therefore reducing the the the turn and the overhead work on the back end resources like our stuff that has to go through requests and tickets and whatnot and also it helps us to launch new features faster to the market, we can be sure that something new we launch, we'll reach the customers fairly quickly because they will know about it.\r \r"
+    },
+    {
+        "start": "00:06:34",
+        "person": "PERSON B",
+        "end": "00:06:40",
+        "part": "And So what would be the owners of such such platforms? Such tool?\r"
+    },
+    {
+        "start": "00:06:40",
+        "person": "PERSON B",
+        "end": "00:06:51",
+        "part": "Umm, you know Tia that would be 2 main groups that would be ecommerce and last cycle management and there are a few applications that go under that.\r \r"
+    },
+    {
+        "start": "00:06:51",
+        "person": "PERSON B",
+        "end": "00:06:18",
+        "part": "Umm and initial scope we have looked at Ishop cloud Portal which is ecommerce and asset management in PRODUCT B as a life cycle management applications and they will use pretty much the same thing. And what I need to point out that owners are responsible to maintain the content of the.\r \r"
+    },
+    {
+        "start": "00:06:19",
+        "person": "PERSON B",
+        "end": "00:07:30",
+        "part": "Uh update guides of the pop ups and whatnot in their own application, so it's it's one single tool, but it's owned and managed by several groups, and those groups are.\r \r"
+    },
+    {
+        "start": "00:07:32",
+        "person": "PERSON B",
+        "end": "00:07:38",
+        "part": "Have the full control and full ownership of anything that they put out to customers.\r \r"
+    },
+    {
+        "start": "00:07:41",
+        "person": "PERSON B",
+        "end": "00:07:48",
+        "part": "Why we need it? Well, first of all, we don't have it. That's that would be #1 obvious.\r \r"
+    },
+    {
+        "start": "00:07:49",
+        "person": "PERSON B",
+        "end": "00:07:52",
+        "part": "Obvious answer, but again.\r \r"
+    },
+    {
+        "start": "00:07:53",
+        "person": "PERSON B",
+        "end": "00:07:06",
+        "part": "The market and the digital option solutions is growing rapidly and companies are investing heavily to make sure that the products and services are.\r \r"
+    },
+    {
+        "start": "00:07:07",
+        "person": "PERSON B",
+        "end": "00:08:31",
+        "part": "Are are usable and if atea wants to be ahead of the curve and be market leader, we need to know what customers want because their needs and and wants they they change constantly in everyday basis and we want our customers to return. We want to keep in touch with our customers rather than being a one time transaction when they purchase something and leave.\r \r"
+    },
+    {
+        "start": "00:08:32",
+        "person": "PERSON B",
+        "end": "00:08:47",
+        "part": "So we want to make our services attractive and interactive, so the the people feel like they are interacting with the services we provide and therefore are willing to use them and therefore bring more money for us.\r \r"
+    },
+    {
+        "start": "00:08:48",
+        "person": "PERSON B",
+        "end": "00:08:50",
+        "part": "Uh, beginning revenue and.\r \r"
+    },
+    {
+        "start": "00:08:51",
+        "person": "PERSON B",
+        "end": "00:08:56",
+        "part": "So we had, look, we had a look at number of tools with at least was very long because.\r \r"
+    },
+    {
+        "start": "00:08:58",
+        "person": "PERSON B",
+        "end": "00:08:00",
+        "part": "The market is ever growing and.\r \r"
+    },
+    {
+        "start": "00:08:01",
+        "person": "PERSON B",
+        "end": "00:08:16",
+        "part": "Actually, since we started looking into those solutions, uh, the market player number has increased significantly, but we had several demos. We had 6 demos with vendors and from those six we shortlisted 3.\r \r"
+    },
+    {
+        "start": "00:08:17",
+        "person": "PERSON B",
+        "end": "00:09:46",
+        "part": "Uh, those three are PRODUCT A PRODUCT B and PRODUCT C, so shortly about all of them. PRODUCT A is one of the major players in Europe. It's it's an enterprise enterprise grade platform with very, very good usability. Anyone can create a guide. It's very flexible, very adoptable and within the package they also include the customer journey technician. So it means there's a dedicated person.\r \r"
+    },
+    {
+        "start": "00:09:46",
+        "person": "PERSON B",
+        "end": "00:09:48",
+        "part": "That helps us to build.\r \r"
+    },
+    {
+        "start": "00:09:48",
+        "person": "PERSON B",
+        "end": "00:09:07",
+        "part": "Anything we want and to adopt the product for our needs to our branding, to our content so that it's maximized the full potential of their platform. The second one is the PRODUCT B, it's a growing company, it's an upcoming player in the market.\r \r"
+    },
+    {
+        "start": "00:09:08",
+        "person": "PERSON B",
+        "end": "00:09:09",
+        "part": "Also based off Europe.\r \r"
+    },
+    {
+        "start": "00:09:10",
+        "person": "PERSON B",
+        "end": "00:09:10",
+        "part": "Umm.\r \r"
+    },
+    {
+        "start": "00:09:11",
+        "person": "PERSON B",
+        "end": "00:09:25",
+        "part": "It is also very flexible, it's it's all it is very robust. So while it might lack some UX features, it it is very technically capable, but it's not that user friendly.\r \r"
+    },
+    {
+        "start": "00:09:26",
+        "person": "PERSON B",
+        "end": "00:09:29",
+        "part": "Umm. However, it's it's very competitively priced.\r \r"
+    },
+    {
+        "start": "00:10:30",
+        "person": "PERSON B",
+        "end": "00:10:45",
+        "part": "And the third one is PRODUCT C, which is it's an enterprise solution pretty much with all the bells and whistles that you would ever want and need in a solution. It's highly customizable and yeah.\r \r"
+    },
+    {
+        "start": "00:10:46",
+        "person": "PERSON B",
+        "end": "00:10:53",
+        "part": "Also very user friendly, but that comes with the price and the price is we can see the price difference is here.\r \r"
+    },
+    {
+        "start": "00:10:54",
+        "person": "PERSON B",
+        "end": "00:10:54",
+        "part": "Umm.\r \r"
+    },
+    {
+        "start": "00:10:56",
+        "person": "PERSON B",
+        "end": "00:10:01",
+        "part": "So yeah, I won't go too much on those. So what is our recommendation?\r \r"
+    },
+    {
+        "start": "00:10:02",
+        "person": "PERSON B",
+        "end": "00:10:23",
+        "part": "Most of the tools, if not all of them meet the the all basic business requirements. All the requirements we have but they, as they say, the devil is always in the detail and only in demos we could we could really see the true nature of those platforms and from all of them user lane is the.\r \r"
+    },
+    {
+        "start": "00:10:24",
+        "person": "PERSON B",
+        "end": "00:10:26",
+        "part": "Is the best solution in our opinion.\r \r"
+    },
+    {
+        "start": "00:10:27",
+        "person": "PERSON B",
+        "end": "00:10:28",
+        "part": "Umm.\r \r"
+    },
+    {
+        "start": "00:10:28",
+        "person": "PERSON B",
+        "end": "00:11:34",
+        "part": "Because it's it's enterprise great, but it's not priced as enterprise solution.\r \r"
+    },
+    {
+        "start": "00:11:35",
+        "person": "PERSON D",
+        "end": "00:11:36",
+        "part": "Honey.\r \r"
+    },
+    {
+        "start": "00:11:35",
+        "person": "PERSON B",
+        "end": "00:11:40",
+        "part": "It's very capable, it's very user friendly and it has.\r \r"
+    },
+    {
+        "start": "00:11:41",
+        "person": "PERSON B",
+        "end": "00:11:49",
+        "part": "By far the best multi language support, which is also pretty important for us as we operate in different markets.\r \r"
+    },
+    {
+        "start": "00:11:49",
+        "person": "PERSON B",
+        "end": "00:11:12",
+        "part": "And the second one would be would be PRODUCT B because it's very, very, very good value, it's very robust and it's very straightforward. And the third one is opt, if it's really good, it's it's truly very good solution, but it's it's it's pretty pricey one. So therefore it landed on the 3rd.\r \r"
+    },
+    {
+        "start": "00:11:12",
+        "person": "PERSON B",
+        "end": "00:11:14",
+        "part": "Uh, third place of our list.\r \r"
+    },
+    {
+        "start": "00:11:15",
+        "person": "PERSON B",
+        "end": "00:11:23",
+        "part": "And that's pretty much the IT there's also appendix in the presentation with the data about.\r \r"
+    },
+    {
+        "start": "00:11:26",
+        "person": "PERSON B",
+        "end": "00:12:36",
+        "part": "Deep market about case studies and metrics in our own applications, but I won't go into those at the moment.\r \r"
+    },
+    {
+        "start": "00:12:38",
+        "person": "PERSON B",
+        "end": "00:12:38",
+        "part": "We can.\r \r"
+    },
+    {
+        "start": "00:12:39",
+        "person": "PERSON B",
+        "end": "00:12:41",
+        "part": "I should have presentation afterwards, alright?\r"
+    },
+    {
+        "start": "00:12:43",
+        "person": "PERSON A",
+        "end": "00:12:44",
+        "part": "Talking.\r \r"
+    },
+    {
+        "start": "00:12:45",
+        "person": "PERSON E",
+        "end": "00:12:50",
+        "part": "So we had the similar product called PRODUCT D.\r \r"
+    },
+    {
+        "start": "00:12:50",
+        "person": "PERSON B",
+        "end": "00:12:51",
+        "part": "Yes.\r \r"
+    },
+    {
+        "start": "00:12:51",
+        "person": "PERSON E",
+        "end": "00:12:56",
+        "part": "It would be good if you at least mention it in your presentation why you didn't consider it.\r \r"
+    },
+    {
+        "start": "00:12:57",
+        "person": "PERSON B",
+        "end": "00:12:57",
+        "part": "Ah yes.\r \r"
+    },
+    {
+        "start": "00:12:57",
+        "person": "PERSON E",
+        "end": "00:12:58",
+        "part": "For for this part.\r \r"
+    },
+    {
+        "start": "00:12:59",
+        "person": "PERSON B",
+        "end": "00:12:01",
+        "part": "Yes, so uh.\r \r"
+    },
+    {
+        "start": "00:12:02",
+        "person": "PERSON B",
+        "end": "00:12:07",
+        "part": "We eliminated that solution because of the pricing model they have. They are.\r \r"
+    },
+    {
+        "start": "00:12:08",
+        "person": "PERSON B",
+        "end": "00:12:15",
+        "part": "Umm, focusing on user numbers and with the customer facing user numbers we have.\r \r"
+    },
+    {
+        "start": "00:12:16",
+        "person": "PERSON B",
+        "end": "00:12:18",
+        "part": "Uh, the price would be just unbearable.\r \r"
+    },
+    {
+        "start": "00:12:19",
+        "person": "PERSON B",
+        "end": "00:12:20",
+        "part": "Whether as.\r \r"
+    },
+    {
+        "start": "00:12:22",
+        "person": "PERSON B",
+        "end": "00:12:28",
+        "part": "For example PRODUCT A, they have all included package where you pay for the application and support.\r \r"
+    },
+    {
+        "start": "00:12:29",
+        "person": "PERSON B",
+        "end": "00:13:31",
+        "part": "But they don't care how many users you have.\r \r"
+    },
+    {
+        "start": "00:13:32",
+        "person": "PERSON B",
+        "end": "00:13:37",
+        "part": "So therefore it's, yeah, it's more reasonable to your tasks solution.\r \r"
+    },
+    {
+        "start": "00:13:38",
+        "person": "PERSON E",
+        "end": "00:13:40",
+        "part": "But in the presentation it would be good if you.\r \r"
+    },
+    {
+        "start": "00:13:40",
+        "person": "PERSON B",
+        "end": "00:13:42",
+        "part": "Yes, yes. Yeah, that's true.\r \r"
+    },
+    {
+        "start": "00:13:41",
+        "person": "PERSON E",
+        "end": "00:13:49",
+        "part": "Because it was quite recently, we decided on the on that tool. So just mention it in your presentation. That would be fantastic.\r \r"
+    },
+    {
+        "start": "00:13:50",
+        "person": "PERSON B",
+        "end": "00:13:52",
+        "part": "Yeah. Alright. Thank you. Yeah.\r \r"
+    },
+    {
+        "start": "00:13:54",
+        "person": "PERSON A",
+        "end": "00:13:04",
+        "part": "I have a question on the pricing. I know PRODUCT C is very pricey, but it sounds like you are also really impressed by what it offers us. What is would there be anything that actually?\r \r"
+    },
+    {
+        "start": "00:13:05",
+        "person": "PERSON A",
+        "end": "00:13:19",
+        "part": "Would allow us to pay that price in in other benefits. Is the maintenance of how you build up the the UX part is that easier to do an action than it is in PRODUCT A and could that make a make a difference on the price evaluation for us?\r \r"
+    },
+    {
+        "start": "00:13:20",
+        "person": "PERSON B",
+        "end": "00:13:28",
+        "part": "No, I don't think so. But judging by the demos we had, they are making neck and it didn't make sense to pay double the price.\r \r"
+    },
+    {
+        "start": "00:13:29",
+        "person": "PERSON A",
+        "end": "00:14:34",
+        "part": "And has security been involved? Is there anything we should have security involved in in this?\r \r"
+    },
+    {
+        "start": "00:14:35",
+        "person": "PERSON A",
+        "end": "00:14:37",
+        "part": "Are we storing data anywhere?\r \r"
+    },
+    {
+        "start": "00:14:38",
+        "person": "PERSON B",
+        "end": "00:14:38",
+        "part": "You know.\r \r"
+    },
+    {
+        "start": "00:14:45",
+        "person": "PERSON A",
+        "end": "00:14:47",
+        "part": "OK. Other questions or comments?\r \r"
+    },
+    {
+        "start": "00:14:49",
+        "person": "PERSON F",
+        "end": "00:14:50",
+        "part": "Yep.\r \r"
+    },
+    {
+        "start": "00:14:48",
+        "person": "PERSON G",
+        "end": "00:14:17",
+        "part": "Yeah, I have some first stuff I I think we need to include the PRODUCT D as you say, because someone will ask later on a year from now, you know, what the heck do you do not consider it. So it needs to be in here. That's kind of evidence for it. The other part I have is that as we go to portfolio Council, we always ask for position it into the North Star architecture and we should have it here as part of the ITECH as well. So we can reuse that later on. But that's for the future, right. But we need to have it in here because it will be reused as soon as you go to portfolio Council.\r \r"
+    },
+    {
+        "start": "00:14:19",
+        "person": "PERSON G",
+        "end": "00:15:37",
+        "part": "3rd Part I have is you know what kind of tool is this because I have a little bit of an issue to position this. To me it's the tools and methods application or tool set. You know something that you use to enhance other tools. It's not a tool that that you provide to the end user directly.\r \r"
+    },
+    {
+        "start": "00:15:38",
+        "person": "PERSON G",
+        "end": "00:15:41",
+        "part": "So it's it's something that that I enrich other solutions.\r \r"
+    },
+    {
+        "start": "00:15:42",
+        "person": "PERSON G",
+        "end": "00:15:49",
+        "part": "And thereby I believe it's it's part of the enabling platforms and so on and not owned by an application itself.\r \r"
+    },
+    {
+        "start": "00:15:51",
+        "person": "PERSON G",
+        "end": "00:15:01",
+        "part": "But is there another view of this? Because this is, you know, I see that it's can as well support dynamics in the future and so on, right? If we want to implement that, it's a, it's a great platform to do that.\r \r"
+    },
+    {
+        "start": "00:15:05",
+        "person": "PERSON B",
+        "end": "00:15:07",
+        "part": "Yes, I guess, yeah.\r \r"
+    },
+    {
+        "start": "00:15:05",
+        "person": "PERSON E",
+        "end": "00:15:12",
+        "part": "I would, I would follow up and I want and have it. Could we used it for PRODUCT E instead of the PRODUCT D. Now could we have one too?\r \r"
+    },
+    {
+        "start": "00:15:14",
+        "person": "PERSON B",
+        "end": "00:15:14",
+        "part": "We could have, yeah.\r \r"
+    },
+    {
+        "start": "00:15:16",
+        "person": "PERSON H",
+        "end": "00:16:30",
+        "part": "But I think the major selling point of as I believe PRODUCT D and that's please correct me if I'm wrong, was that PRODUCT E the water of the main requirements was for it to integrate with the classical interface.\r \r"
+    },
+    {
+        "start": "00:16:31",
+        "person": "PERSON E",
+        "end": "00:16:32",
+        "part": "That was both.\r \r"
+    },
+    {
+        "start": "00:16:31",
+        "person": "PERSON H",
+        "end": "00:16:32",
+        "part": "But only if you are.\r \r"
+    },
+    {
+        "start": "00:16:34",
+        "person": "PERSON E",
+        "end": "00:16:35",
+        "part": "Uh.\r \r"
+    },
+    {
+        "start": "00:16:36",
+        "person": "PERSON I",
+        "end": "00:16:37",
+        "part": "True, true.\r \r"
+    },
+    {
+        "start": "00:16:38",
+        "person": "PERSON I",
+        "end": "00:16:38",
+        "part": "Sorry.\r \r"
+    },
+    {
+        "start": "00:16:38",
+        "person": "PERSON E",
+        "end": "00:16:39",
+        "part": "Yeah.\r \r"
+    },
+    {
+        "start": "00:16:37",
+        "person": "PERSON H",
+        "end": "00:16:41",
+        "part": "So so I I I I don't believe PRODUCT A is capable of doing that.\r \r"
+    },
+    {
+        "start": "00:16:42",
+        "person": "PERSON G",
+        "end": "00:16:48",
+        "part": "But it needs to be checked, right? Because it's it is a possibility there as well. If it has not been put in play yet N PRODUCT D.\r \r"
+    },
+    {
+        "start": "00:16:49",
+        "person": "PERSON G",
+        "end": "00:16:52",
+        "part": "We should at least raise it that this is a possibility.\r \r"
+    },
+    {
+        "start": "00:16:53",
+        "person": "PERSON G",
+        "end": "00:16:05",
+        "part": "I know that all guests not on the call, but you know this is this is a very wide platform, it can, it can provide a lot of value to not only the selected applications that Elias on to be sunbrella but a lot of the other possibilities as well, right.\r \r"
+    },
+    {
+        "start": "00:16:07",
+        "person": "PERSON B",
+        "end": "00:16:07",
+        "part": "Yes.\r \r"
+    },
+    {
+        "start": "00:16:08",
+        "person": "PERSON B",
+        "end": "00:16:21",
+        "part": "Well, initially it was the main requirements that were discussed were were for customer facing applications and yeah. But of course we can expand that because they also of course offer.\r \r"
+    },
+    {
+        "start": "00:16:21",
+        "person": "PERSON B",
+        "end": "00:16:22",
+        "part": "Umm.\r \r"
+    },
+    {
+        "start": "00:16:23",
+        "person": "PERSON B",
+        "end": "00:17:31",
+        "part": "Offer any kind of internal patient support as well, including SAT which is mentioned in their site as a customer. So.\r \r"
+    },
+    {
+        "start": "00:17:39",
+        "person": "PERSON B",
+        "end": "00:17:40",
+        "part": "Yeah.\r \r"
+    },
+    {
+        "start": "00:17:31",
+        "person": "PERSON G",
+        "end": "00:17:43",
+        "part": "Because even if the other doesn't have a requirement today, it would be bad if we bring yet another doc tool just because dynamics needs once and PRODUCT E needs one, and then catalyst one believes that they need something and we're being in a fourth one.\r \r"
+    },
+    {
+        "start": "00:17:45",
+        "person": "PERSON B",
+        "end": "00:17:46",
+        "part": "Yeah.\r \r"
+    },
+    {
+        "start": "00:17:45",
+        "person": "PERSON G",
+        "end": "00:17:52",
+        "part": "So it would be nice to have one, you know, this kind covers everything. If you want to go away from this one. Sure, you can do that, but you need a good reason for it.\r \r"
+    },
+    {
+        "start": "00:17:53",
+        "person": "PERSON B",
+        "end": "00:17:54",
+        "part": "OK.\r \r"
+    },
+    {
+        "start": "00:17:56",
+        "person": "PERSON B",
+        "end": "00:17:57",
+        "part": "Right.\r \r"
+    },
+    {
+        "start": "00:17:59",
+        "person": "PERSON B",
+        "end": "00:17:00",
+        "part": "Yes.\r \r"
+    },
+    {
+        "start": "00:17:57",
+        "person": "PERSON F",
+        "end": "00:17:00",
+        "part": "I raised my hand, maybe.\r \r"
+    },
+    {
+        "start": "00:17:00",
+        "person": "PERSON F",
+        "end": "00:17:00",
+        "part": "OK.\r \r"
+    },
+    {
+        "start": "00:17:59",
+        "person": "PERSON A",
+        "end": "00:17:00",
+        "part": "Yes, your turn.\r \r"
+    },
+    {
+        "start": "00:17:05",
+        "person": "PERSON F",
+        "end": "00:17:16",
+        "part": "I missed the store to the meeting. Sorry for that. So I don't know what is this service is doing. I don't know if it's in service or it's an on Prem solution but doesn't it process any of atea data?\r \r"
+    },
+    {
+        "start": "00:17:18",
+        "person": "PERSON B",
+        "end": "00:17:25",
+        "part": "Uh, not really. It's a it's a sad solution. It's basically.\r \r"
+    },
+    {
+        "start": "00:17:26",
+        "person": "PERSON B",
+        "end": "00:18:36",
+        "part": "Courtney, but that is added to the web page which invokes a JavaScript library which is like an overlay of highlighting elements in a page.\r \r"
+    },
+    {
+        "start": "00:18:38",
+        "person": "PERSON F",
+        "end": "00:18:38",
+        "part": "OK.\r \r"
+    },
+    {
+        "start": "00:18:37",
+        "person": "PERSON B",
+        "end": "00:18:39",
+        "part": "Umm, it doesn't store any kind of user data.\r \r"
+    },
+    {
+        "start": "00:18:40",
+        "person": "PERSON F",
+        "end": "00:18:40",
+        "part": "OK.\r \r"
+    },
+    {
+        "start": "00:18:40",
+        "person": "PERSON E",
+        "end": "00:18:43",
+        "part": "You're you remember Clipper. He's like you're that old.\r \r"
+    },
+    {
+        "start": "00:18:43",
+        "person": "PERSON F",
+        "end": "00:18:44",
+        "part": "Yeah.\r \r"
+    },
+    {
+        "start": "00:18:44",
+        "person": "PERSON E",
+        "end": "00:18:48",
+        "part": "Yeah. So this is a Clipper for the the the next generation.\r \r"
+    },
+    {
+        "start": "00:18:47",
+        "person": "PERSON F",
+        "end": "00:18:49",
+        "part": "OK, OK.\r \r"
+    },
+    {
+        "start": "00:18:48",
+        "person": "PERSON D",
+        "end": "00:18:54",
+        "part": "It's like is this the same one we've had in in Montrose, the little guy in the down left corner?\r \r"
+    },
+    {
+        "start": "00:18:54",
+        "person": "PERSON F",
+        "end": "00:18:55",
+        "part": "Yeah. OK.\r \r"
+    },
+    {
+        "start": "00:18:55",
+        "person": "PERSON D",
+        "end": "00:18:57",
+        "part": "That's the that's PRODUCT A.\r \r"
+    },
+    {
+        "start": "00:18:58",
+        "person": "PERSON G",
+        "end": "00:18:06",
+        "part": "But but there isn't analytics part a shared as part of PRODUCT A. What kind of analytics is that and what kind of data is it based on?\r \r"
+    },
+    {
+        "start": "00:18:07",
+        "person": "PERSON B",
+        "end": "00:18:24",
+        "part": "It counts like how many clicks there wasn't a particular notification that we publish. Or let's say there's a walkthrough guide and it just monitors how many users have completed the guide on which that the majority have dropped and so forth.\r \r"
+    },
+    {
+        "start": "00:18:25",
+        "person": "PERSON F",
+        "end": "00:18:26",
+        "part": "OK, so let's.\r \r"
+    },
+    {
+        "start": "00:18:25",
+        "person": "PERSON B",
+        "end": "00:18:28",
+        "part": "Without indicating any kind of user identity.\r \r"
+    },
+    {
+        "start": "00:19:32",
+        "person": "PERSON F",
+        "end": "00:19:33",
+        "part": "OK, then I rest my case.\r \r"
+    },
+    {
+        "start": "00:19:38",
+        "person": "PERSON A",
+        "end": "00:19:39",
+        "part": "And the other.\r \r"
+    },
+    {
+        "start": "00:19:38",
+        "person": "PERSON G",
+        "end": "00:19:03",
+        "part": "So I I have more. Of course I have more when it comes to maintaining this one. I understand that you know PRODUCT B and so on will use this right and actually point out there they will take care of of using it. They will learn how about it and so on do we need to add more people or more effort to the teams that are currently in place or you know how how do they get this kind of training and this kind of new skill.\r \r"
+    },
+    {
+        "start": "00:19:06",
+        "person": "PERSON B",
+        "end": "00:19:11",
+        "part": "40 myatea part we had meetings with Daniel and.\r \r"
+    },
+    {
+        "start": "00:19:12",
+        "person": "PERSON B",
+        "end": "00:19:24",
+        "part": "Hello I think ohh and they are taking over that they have the capabilities and resources to do that for each shop. I think it was a kind of remember who it was but basically.\r \r"
+    },
+    {
+        "start": "00:19:25",
+        "person": "PERSON B",
+        "end": "00:19:26",
+        "part": "OK.\r \r"
+    },
+    {
+        "start": "00:19:23",
+        "person": "PERSON G",
+        "end": "00:19:26",
+        "part": "I think it is is is ready to jump in.\r \r"
+    },
+    {
+        "start": "00:19:27",
+        "person": "PERSON B",
+        "end": "00:19:29",
+        "part": "Yes, that would be better, I think.\r \r"
+    },
+    {
+        "start": "00:20:30",
+        "person": "PERSON J",
+        "end": "00:20:42",
+        "part": "It is of course true that that we have agreed. Let me start a little bit different. Keep in mind this is for customer oriented systems. That is how the demand started all the way back in March 21.\r \r"
+    },
+    {
+        "start": "00:20:43",
+        "person": "PERSON J",
+        "end": "00:20:48",
+        "part": "For PRODUCT B, for PRODUCT C, for E shop and Atea asset management.\r \r"
+    },
+    {
+        "start": "00:20:49",
+        "person": "PERSON J",
+        "end": "00:20:56",
+        "part": "And all four of them being customer oriented, that's also the pricing scheme will PRODUCT E. Now as we have established.\r \r"
+    },
+    {
+        "start": "00:20:58",
+        "person": "PERSON J",
+        "end": "00:20:07",
+        "part": "We have also looked at each other and work with each other throughout this process with the help of robots and Alex that we will.\r \r"
+    },
+    {
+        "start": "00:20:08",
+        "person": "PERSON J",
+        "end": "00:20:13",
+        "part": "Find the needed time and resources to both enable and work with this focused.\r \r"
+    },
+    {
+        "start": "00:20:14",
+        "person": "PERSON J",
+        "end": "00:21:41",
+        "part": "So we can utilize it to some extent. We will free up a little bit of time in regards to support as we have now in regards to giving customers information about new features and PRODUCT A, new features and PRODUCT C or what it is and guiding customers, onboarding customers into the different systems. So a little bit of time we'll be freed up there. That is a clear expectation.\r \r"
+    },
+    {
+        "start": "00:21:42",
+        "person": "PERSON J",
+        "end": "00:21:11",
+        "part": "And in the little bit longer run, we have a very small team sitting in the chat service center and Riga right now that is doing on a regular basis AC some PRODUCT C work that will go away actually on June 13th when something in PRODUCT C related to PRODUCT C will be closed down. So the thinking and the plan is also to utilize that little team for this and build the needed expertise.\r \r"
+    },
+    {
+        "start": "00:21:12",
+        "person": "PERSON J",
+        "end": "00:21:21",
+        "part": "On on it. That's the work right now. We need to get experience. Atea does customer Orient that not have any solution of the kind available today?\r \r"
+    },
+    {
+        "start": "00:21:23",
+        "person": "PERSON J",
+        "end": "00:22:37",
+        "part": "So we also need to figure out how to work with it and also see how customers react on it going forward. If this is also something to be used in internal systems, obviously make sense.\r \r"
+    },
+    {
+        "start": "00:22:37",
+        "person": "PERSON J",
+        "end": "00:22:44",
+        "part": "If it's as good and powerful as Sara PRODUCT E, I don't know.\r \r"
+    },
+    {
+        "start": "00:22:45",
+        "person": "PERSON J",
+        "end": "00:22:52",
+        "part": "As  puts it, we looked at different solution. He, PERSON B did the initial screening of the of the market.\r \r"
+    },
+    {
+        "start": "00:22:54",
+        "person": "PERSON B",
+        "end": "00:22:26",
+        "part": "Put forward some suggestion, had demos talked about it, looked at it and and that is how PRODUCT A came out to be. The recommended solution from our side, from the business side. That is how we look at it because it also looked as it looks it is rather easy to go to and get going with it. On top of that, PRODUCT A has offered quite a rather rather big project onboarding plan fast and we will find the time to get it done.\r \r"
+    },
+    {
+        "start": "00:22:26",
+        "person": "PERSON J",
+        "end": "00:23:38",
+        "part": "In the different portals, not immediately from Monday morning, if obviously it it takes a little bit of time, but we will do it throughout the summer and fall and get it enabled, yes.\r \r"
+    },
+    {
+        "start": "00:23:40",
+        "person": "PERSON J",
+        "end": "00:23:44",
+        "part": "So if I summarize, that means that the existing team will be able to cover it.\r \r"
+    },
+    {
+        "start": "00:23:43",
+        "person": "PERSON G",
+        "end": "00:23:44",
+        "part": "Yes.\r \r"
+    },
+    {
+        "start": "00:23:44",
+        "person": "PERSON J",
+        "end": "00:23:46",
+        "part": "In all four solutions, yeah.\r \r"
+    },
+    {
+        "start": "00:23:46",
+        "person": "PERSON J",
+        "end": "00:23:52",
+        "part": "Then I think we should put that in. So it's clear that there are no additional expectations.\r \r"
+    },
+    {
+        "start": "00:23:51",
+        "person": "PERSON G",
+        "end": "00:23:59",
+        "part": "Oh, that was that was data on one of the slides. If you go back a little bit, actually I think it was stated on slide.\r \r"
+    },
+    {
+        "start": "00:23:00",
+        "person": "PERSON J",
+        "end": "00:23:01",
+        "part": "Slide 6.\r \r"
+    },
+    {
+        "start": "00:23:02",
+        "person": "PERSON J",
+        "end": "00:23:05",
+        "part": "Ownership under the ownership slot. If you show that.\r \r"
+    },
+    {
+        "start": "00:23:06",
+        "person": "PERSON J",
+        "end": "00:23:07",
+        "part": "Robert.\r \r"
+    },
+    {
+        "start": "00:23:14",
+        "person": "PERSON J",
+        "end": "00:23:15",
+        "part": "As mentioned.\r \r"
+    },
+    {
+        "start": "00:23:16",
+        "person": "PERSON B",
+        "end": "00:23:16",
+        "part": "Just want to.\r \r"
+    },
+    {
+        "start": "00:23:15",
+        "person": "PERSON B",
+        "end": "00:23:19",
+        "part": "I don't see anything around the getting you need it for increased budgets or not, but.\r \r"
+    },
+    {
+        "start": "00:23:24",
+        "person": "PERSON G",
+        "end": "00:23:24",
+        "part": "Yeah.\r \r"
+    },
+    {
+        "start": "00:23:20",
+        "person": "PERSON G",
+        "end": "00:23:28",
+        "part": "Owners of the tap I also responsible for the resource implementation complementarians of the application costs associated with it, yes.\r \r"
+    },
+    {
+        "start": "00:24:31",
+        "person": "PERSON J",
+        "end": "00:24:32",
+        "part": "Yes it does.\r \r"
+    },
+    {
+        "start": "00:24:31",
+        "person": "PERSON B",
+        "end": "00:24:32",
+        "part": "Ohh that is correct.\r \r"
+    },
+    {
+        "start": "00:23:28",
+        "person": "PERSON J",
+        "end": "00:24:34",
+        "part": "Yeah, but it doesn't say if we need to add resources or not. So let's just state that the existing team can take care of it.\r \r"
+    },
+    {
+        "start": "00:24:35",
+        "person": "PERSON G",
+        "end": "00:24:35",
+        "part": "Yeah.\r \r"
+    },
+    {
+        "start": "00:24:36",
+        "person": "PERSON J",
+        "end": "00:24:37",
+        "part": "Kind of.\r \r"
+    },
+    {
+        "start": "00:24:40",
+        "person": "PERSON J",
+        "end": "00:24:47",
+        "part": "So there's no need to expand or anything like that from a runtime or anything like that, which is great. Just just the license that needs them to be put in place.\r \r"
+    },
+    {
+        "start": "00:24:49",
+        "person": "PERSON G",
+        "end": "00:24:50",
+        "part": "But it's just.\r \r"
+    },
+    {
+        "start": "00:24:47",
+        "person": "PERSON G",
+        "end": "00:24:50",
+        "part": "Yeah, yeah. Being allowed to do use it.\r \r"
+    },
+    {
+        "start": "00:24:51",
+        "person": "PERSON J",
+        "end": "00:24:51",
+        "part": "Right.\r \r"
+    },
+    {
+        "start": "00:24:52",
+        "person": "PERSON G",
+        "end": "00:24:53",
+        "part": "That is what we need.\r \r"
+    },
+    {
+        "start": "00:24:54",
+        "person": "PERSON J",
+        "end": "00:24:57",
+        "part": "And the money that is a portfolio Council.\r \r"
+    },
+    {
+        "start": "00:24:59",
+        "person": "PERSON J",
+        "end": "00:24:05",
+        "part": "And and what if they portfolio Council views that is to you know, if they push you back to the less expensive number too?\r \r"
+    },
+    {
+        "start": "00:24:06",
+        "person": "PERSON G",
+        "end": "00:24:07",
+        "part": "What will be the?\r \r"
+    },
+    {
+        "start": "00:24:08",
+        "person": "PERSON G",
+        "end": "00:24:13",
+        "part": "Disadvantage of going with that one? Do we fail in some areas or what will happen?\r \r"
+    },
+    {
+        "start": "00:24:18",
+        "person": "PERSON G",
+        "end": "00:24:18",
+        "part": "On.\r \r"
+    },
+    {
+        "start": "00:24:19",
+        "person": "PERSON B",
+        "end": "00:24:19",
+        "part": "Yeah.\r \r"
+    },
+    {
+        "start": "00:24:18",
+        "person": "PERSON B",
+        "end": "00:24:24",
+        "part": "How's it if I put like this? How's #2 even being checked from a security and so on perspective, you know it's.\r \r"
+    },
+    {
+        "start": "00:24:25",
+        "person": "PERSON G",
+        "end": "00:25:42",
+        "part": "We only have one option that we are putting forward, right? But I my question is just you know pure on financials, if they say the other one is so less expensive, we suggest you go with that one unless you see big issues with it and you don't have any big issues, there is a risk that they are pushing you back into that one.\r \r"
+    },
+    {
+        "start": "00:25:44",
+        "person": "PERSON G",
+        "end": "00:25:03",
+        "part": "I don't see immediately thinking back about the demos, the dialogues where we were involved, where I was involved. I don't see any big issues to going to number 2. I don't expect them just from a cost perspective because at the is my father most expensive one. I don't see any problems with inline.\r \r"
+    },
+    {
+        "start": "00:25:03",
+        "person": "PERSON J",
+        "end": "00:25:08",
+        "part": "The back end, all the the administration off it seems.\r \r"
+    },
+    {
+        "start": "00:25:10",
+        "person": "PERSON J",
+        "end": "00:25:10",
+        "part": "Easier.\r \r"
+    },
+    {
+        "start": "00:25:11",
+        "person": "PERSON J",
+        "end": "00:25:27",
+        "part": "To work with when we talk about PRODUCT A then it will PRODUCT B. But I don't see any functionality per se. We lose by going with for example PRODUCT B. No, I don't definitely I don't see that immediately.\r \r"
+    },
+    {
+        "start": "00:25:28",
+        "person": "PERSON J",
+        "end": "00:25:29",
+        "part": "Yeah, I would.\r \r"
+    },
+    {
+        "start": "00:26:31",
+        "person": "PERSON J",
+        "end": "00:26:32",
+        "part": "Yeah, the.\r \r"
+    },
+    {
+        "start": "00:26:34",
+        "person": "PERSON J",
+        "end": "00:26:34",
+        "part": "Yeah.\r \r"
+    },
+    {
+        "start": "00:26:35",
+        "person": "PERSON J",
+        "end": "00:26:35",
+        "part": "Yeah.\r \r"
+    },
+    {
+        "start": "00:25:27",
+        "person": "PERSON J",
+        "end": "00:26:36",
+        "part": "But for help us then, then PRODUCT A is quicker to adopt and get in. So we will be more speed. I would say that would be the main advantage of getting used to Langdon.\r \r"
+    },
+    {
+        "start": "00:26:46",
+        "person": "PERSON G",
+        "end": "00:26:47",
+        "part": "No.\r \r"
+    },
+    {
+        "start": "00:26:36",
+        "person": "PERSON G",
+        "end": "00:26:49",
+        "part": "Absolutely. That is what we that is why it ended up with user laid. Of course there are functionality differences that one solution has over the other. It's always like that.\r \r"
+    },
+    {
+        "start": "00:26:57",
+        "person": "PERSON J",
+        "end": "00:26:58",
+        "part": "No.\r \r"
+    },
+    {
+        "start": "00:26:58",
+        "person": "PERSON J",
+        "end": "00:26:59",
+        "part": "Yeah.\r \r"
+    },
+    {
+        "start": "00:26:50",
+        "person": "PERSON J",
+        "end": "00:26:01",
+        "part": "I understand the The thing is that you have no big pros, sorry cons about any of them, right? All of them look good. One of the big cons with the third one, that is expensive, but nothing really differs between one and two.\r \r"
+    },
+    {
+        "start": "00:26:01",
+        "person": "PERSON G",
+        "end": "00:27:32",
+        "part": "No, no technical, per SE technical right things I have to think about again the back end. That is where PRODUCT A by the looks of it from what we've seen have been introduced to looks easier to handle and manage and work with than the others PRODUCT B which seems more like a less mature solution by that. And by that the administration office seems more technical, let's say it's this way and given the fact that it will be.\r \r"
+    },
+    {
+        "start": "00:27:33",
+        "person": "PERSON J",
+        "end": "00:27:37",
+        "part": "Not necessarily. Hot core technical people needing to work with this.\r \r"
+    },
+    {
+        "start": "00:27:38",
+        "person": "PERSON J",
+        "end": "00:27:42",
+        "part": "That that is PRODUCT A then easier to go to as it looks.\r \r"
+    },
+    {
+        "start": "00:27:43",
+        "person": "PERSON J",
+        "end": "00:27:43",
+        "part": "OK.\r \r"
+    },
+    {
+        "start": "00:27:47",
+        "person": "PERSON G",
+        "end": "00:27:57",
+        "part": "Yes, for from the assessment, which one are the the would you consider being the best partner for us who will be like listen to our demands and our.\r \r"
+    },
+    {
+        "start": "00:27:58",
+        "person": "PERSON E",
+        "end": "00:27:02",
+        "part": "The time lines? Or would we just be another customer?\r \r"
+    },
+    {
+        "start": "00:27:03",
+        "person": "PERSON E",
+        "end": "00:27:04",
+        "part": "Of those, the the choices you have done.\r \r"
+    },
+    {
+        "start": "00:27:17",
+        "person": "PERSON E",
+        "end": "00:27:17",
+        "part": "Yeah.\r \r"
+    },
+    {
+        "start": "00:27:06",
+        "person": "PERSON E",
+        "end": "00:27:27",
+        "part": "PRODUCT A an empty because they are more focused on product, they are more flexible than the flexibility is built into the product that can adapt to customers more and they are willing to put out like a customer success engineer because with PRODUCT B they are very tight knit company and what you see is what you get.\r \r"
+    },
+    {
+        "start": "00:27:28",
+        "person": "PERSON B",
+        "end": "00:27:29",
+        "part": "Yeah. So.\r \r"
+    },
+    {
+        "start": "00:28:30",
+        "person": "PERSON E",
+        "end": "00:28:31",
+        "part": "Write that in the.\r \r"
+    },
+    {
+        "start": "00:28:32",
+        "person": "PERSON E",
+        "end": "00:28:32",
+        "part": "PDM.\r \r"
+    },
+    {
+        "start": "00:28:33",
+        "person": "PERSON E",
+        "end": "00:28:33",
+        "part": "Umm.\r \r"
+    },
+    {
+        "start": "00:28:34",
+        "person": "PERSON G",
+        "end": "00:28:34",
+        "part": "Yeah.\r \r"
+    },
+    {
+        "start": "00:28:37",
+        "person": "PERSON B",
+        "end": "00:28:37",
+        "part": "Yeah.\r \r"
+    },
+    {
+        "start": "00:28:34",
+        "person": "PERSON J",
+        "end": "00:28:40",
+        "part": "The summaries because we're looking for a good partner, we really want to have the a partnership with the vendor.\r \r"
+    },
+    {
+        "start": "00:28:41",
+        "person": "PERSON E",
+        "end": "00:28:58",
+        "part": "What I from a business perspective real like with PRODUCT A, they actually when they prepared came to the demonstration meeting, there were very well prepared, they knew who we were atea that's a big plus. Trust me, one of the others didn't even know who we were. That didn't take the time to prepare properly.\r \r"
+    },
+    {
+        "start": "00:28:59",
+        "person": "PERSON J",
+        "end": "00:28:23",
+        "part": "PRODUCT A actually also forwarded a business opportunity for five atea if we want to sell PRODUCT A in our market, totally different discussion doesn't have anything to do. What we are looking at here, but they say, hey, if you are interested in selling PRODUCT A, we can give you this deal also on top of that. That shows me that are very interested they are.\r \r"
+    },
+    {
+        "start": "00:28:24",
+        "person": "PERSON J",
+        "end": "00:29:39",
+        "part": "Well, in front of the bus, so to speak, they see an opportunity with us. So not just another customer, but that dialogue needs to be taken somewhere completely different if we are to resell also that solution and now our market.\r \r"
+    },
+    {
+        "start": "00:29:41",
+        "person": "PERSON J",
+        "end": "00:29:45",
+        "part": "But that just shows me they think that step further ahead.\r \r"
+    },
+    {
+        "start": "00:29:51",
+        "person": "PERSON J",
+        "end": "00:29:52",
+        "part": "Yep.\r \r"
+    },
+    {
+        "start": "00:29:53",
+        "person": "PERSON J",
+        "end": "00:29:54",
+        "part": "Are there comments?\r \r"
+    },
+    {
+        "start": "00:29:56",
+        "person": "PERSON A",
+        "end": "00:29:00",
+        "part": "We need to update the the ownership part.\r \r"
+    },
+    {
+        "start": "00:29:00",
+        "person": "PERSON G",
+        "end": "00:29:03",
+        "part": "There can only be 1 owner at the end of it.\r \r"
+    },
+    {
+        "start": "00:29:04",
+        "person": "PERSON G",
+        "end": "00:29:18",
+        "part": "And I need to have this more as an enabling. It's perfectly fine that this is all for ecommerce life cycle management and the stakeholders in here, but it is impossibility later on to also open up for others and we should make sure that that is understood.\r \r"
+    },
+    {
+        "start": "00:29:19",
+        "person": "PERSON G",
+        "end": "00:29:21",
+        "part": "And that could come faster actually.\r \r"
+    },
+    {
+        "start": "00:29:21",
+        "person": "PERSON A",
+        "end": "00:30:43",
+        "part": "Yes, but I I think it's a great thing. You know, if he commerce and life cycle management needs it, then we should push this forward. They would be the first one out, but it also has added value that others can actually tap into this platform and do more. So if you have another PRODUCT A or another smart business solution, right, we have a ready to go dig to the adoption platform which is great.\r \r"
+    },
+    {
+        "start": "00:30:45",
+        "person": "PERSON G",
+        "end": "00:30:59",
+        "part": "As a on the we updated the slide deck for the Portfolio Council slightly. Also take notes here. The ADS ownership for this one in within a DS will be .\r \r"
+    },
+    {
+        "start": "00:30:01",
+        "person": "PERSON J",
+        "end": "00:30:02",
+        "part": "Well.\r \r"
+    },
+    {
+        "start": "00:30:02",
+        "person": "PERSON K",
+        "end": "00:30:03",
+        "part": "Don't.\r \r"
+    },
+    {
+        "start": "00:30:01",
+        "person": "PERSON J",
+        "end": "00:30:03",
+        "part": "Yeah, I know that that is in there today.\r \r"
+    },
+    {
+        "start": "00:30:06",
+        "person": "PERSON A",
+        "end": "00:30:06",
+        "part": "This is.\r \r"
+    },
+    {
+        "start": "00:30:09",
+        "person": "PERSON G",
+        "end": "00:30:09",
+        "part": "OK.\r \r"
+    },
+    {
+        "start": "00:30:06",
+        "person": "PERSON A",
+        "end": "00:30:10",
+        "part": "With a slide deck for the Portfolio Council, so sorry for not.\r \r"
+    },
+    {
+        "start": "00:30:12",
+        "person": "PERSON G",
+        "end": "00:30:12",
+        "part": "Get away.\r \r"
+    },
+    {
+        "start": "00:30:12",
+        "person": "PERSON J",
+        "end": "00:30:20",
+        "part": "Yeah, forgetting to put that line in here, but to have a very clear ownership, PERSON K. And of course she has been part of that dialogue obviously also.\r \r"
+    },
+    {
+        "start": "00:30:22",
+        "person": "PERSON A",
+        "end": "00:30:22",
+        "part": "Cookies.\r \r"
+    },
+    {
+        "start": "00:30:22",
+        "person": "PERSON J",
+        "end": "00:30:23",
+        "part": "Bigger.\r \r"
+    },
+    {
+        "start": "00:30:24",
+        "person": "PERSON A",
+        "end": "00:30:24",
+        "part": "Thank you.\r \r"
+    },
+    {
+        "start": "00:30:28",
+        "person": "PERSON G",
+        "end": "00:31:37",
+        "part": "At very quick question, I know this is not for the ITAC yeah, but the the pricing that you have for the portfolio Council that covers all these four applications, right?\r \r"
+    },
+    {
+        "start": "00:31:37",
+        "person": "PERSON J",
+        "end": "00:31:39",
+        "part": "Some of the elbow sticking cookies.\r \r"
+    },
+    {
+        "start": "00:31:38",
+        "person": "PERSON G",
+        "end": "00:31:47",
+        "part": "Correct the pricing for the license is �99,000 from a year, not a month, a year for those four applications.\r \r"
+    },
+    {
+        "start": "00:31:48",
+        "person": "PERSON A",
+        "end": "00:31:10",
+        "part": "There is. I set up implementation for the setup implementation project for 19,000. That means the first year it's 100 and 18,000 as it was stated and going forward year over year it's 99,000 for those four applications, each additional license and that is the good thing here. The very good thing the cost is 36,000 a year.\r \r"
+    },
+    {
+        "start": "00:31:11",
+        "person": "PERSON J",
+        "end": "00:32:33",
+        "part": "No matter how many users and that was very important here. As PERSON B stated, we actually do not know how many users we have in PRODUCT C in PRODUCT B in PRODUCT A in AM. We know it now, but going forward we we we don't know so alone from the that.\r \r"
+    },
+    {
+        "start": "00:32:34",
+        "person": "PERSON J",
+        "end": "00:32:59",
+        "part": "Perspective. Having a system that is licensed per user by active user or just per user isn't does not work for atea. We of course from the pricing had already PERSON L having a good dialogue with him and let's say it's this way he got it down from 200 and �12,000 for the first year to the 100 and 18,000.\r \r"
+    },
+    {
+        "start": "00:32:02",
+        "person": "PERSON J",
+        "end": "00:32:02",
+        "part": "Yeah.\r \r"
+    },
+    {
+        "start": "00:32:02",
+        "person": "PERSON J",
+        "end": "00:32:06",
+        "part": "And the yearly payment down from 144 to 99.\r \r"
+    },
+    {
+        "start": "00:32:07",
+        "person": "PERSON G",
+        "end": "00:32:09",
+        "part": "For those four applications.\r \r"
+    },
+    {
+        "start": "00:32:12",
+        "person": "PERSON J",
+        "end": "00:32:12",
+        "part": "They're good.\r \r"
+    },
+    {
+        "start": "00:32:13",
+        "person": "PERSON J",
+        "end": "00:32:15",
+        "part": "So he has done his magic already.\r \r"
+    },
+    {
+        "start": "00:32:16",
+        "person": "PERSON G",
+        "end": "00:32:17",
+        "part": "If that's more.\r \r"
+    },
+    {
+        "start": "00:32:16",
+        "person": "PERSON J",
+        "end": "00:32:17",
+        "part": "But let's see if we can do more.\r \r"
+    },
+    {
+        "start": "00:32:18",
+        "person": "PERSON J",
+        "end": "00:32:29",
+        "part": "If there's more to be done, if we come with ten additional applications instead of each one being 36,000, while that is his magic, then hopefully.\r \r"
+    },
+    {
+        "start": "00:32:29",
+        "person": "PERSON G",
+        "end": "00:33:33",
+        "part": "Great, OK. But it covers initial scope, which is good.\r \r"
+    },
+    {
+        "start": "00:33:33",
+        "person": "PERSON J",
+        "end": "00:33:33",
+        "part": "Yes.\r \r"
+    },
+    {
+        "start": "00:33:33",
+        "person": "PERSON G",
+        "end": "00:33:36",
+        "part": "Well, we should just clarify that as well, yeah.\r \r"
+    },
+    {
+        "start": "00:33:40",
+        "person": "PERSON J",
+        "end": "00:33:41",
+        "part": "OK.\r \r"
+    },
+    {
+        "start": "00:33:42",
+        "person": "PERSON G",
+        "end": "00:33:43",
+        "part": "Happy thing else.\r \r"
+    },
+    {
+        "start": "00:33:43",
+        "person": "PERSON G",
+        "end": "00:33:44",
+        "part": "Any other questions?\r \r"
+    },
+    {
+        "start": "00:33:45",
+        "person": "PERSON J",
+        "end": "00:33:56",
+        "part": "If not, then I'll please ask anybody who has a solid reason of why PERSON J and PERSON B should not take this to portfolio Council on Thursday next week to speak up.\r \r"
+    },
+    {
+        "start": "00:33:58",
+        "person": "PERSON A",
+        "end": "00:33:00",
+        "part": "I'll keep quiet forever. It's like when you get married.\r \r"
+    },
+    {
+        "start": "00:33:01",
+        "person": "PERSON A",
+        "end": "00:33:02",
+        "part": "Exactly.\r \r"
+    },
+    {
+        "start": "00:33:02",
+        "person": "PERSON J",
+        "end": "00:33:04",
+        "part": "I was trying to get to that point earlier.\r \r"
+    },
+    {
+        "start": "00:33:05",
+        "person": "PERSON A",
+        "end": "00:33:06",
+        "part": "Sorry.\r \r"
+    },
+    {
+        "start": "00:33:17",
+        "person": "PERSON A",
+        "end": "00:33:17",
+        "part": "Yeah.\r \r"
+    },
+    {
+        "start": "00:33:09",
+        "person": "PERSON J",
+        "end": "00:33:19",
+        "part": "Doesn't seem to be the case, so we look forward to seeing that next Thursday in coverage Council and wish you the best of luck there. If you think we are hungry lions waiting to attack.\r \r"
+    },
+    {
+        "start": "00:33:20",
+        "person": "PERSON J",
+        "end": "00:33:21",
+        "part": "Just wait.\r \r"
+    },
+    {
+        "start": "00:33:26",
+        "person": "PERSON A",
+        "end": "00:33:26",
+        "part": "No, but.\r \r"
+    },
+    {
+        "start": "00:33:27",
+        "person": "PERSON A",
+        "end": "00:33:28",
+        "part": "Yep.\r \r"
+    },
+    {
+        "start": "00:33:24",
+        "person": "PERSON A",
+        "end": "00:34:33",
+        "part": "Good. Then I will jump out and you continue your meeting because I guess you don't need me anymore. And thank you for having me today. Have fun. Bye.\r \r"
+    },
+    {
+        "start": "00:34:33",
+        "person": "PERSON A",
+        "end": "00:34:34",
+        "part": "Thanks, . See you.\r \r"
+    },
+    {
+        "start": "00:34:34",
+        "person": "PERSON J",
+        "end": "00:34:35",
+        "part": "Thank you. Bye.\r \r"
+    },
+    {
+        "start": "00:34:35",
+        "person": "PERSON A",
+        "end": "00:34:35",
+        "part": "All right.\r \r"
+    },
+    {
+        "start": "00:34:45",
+        "person": "PERSON J",
+        "end": "00:34:47",
+        "part": "So back to the agenda for today.\r \r"
+    },
+    {
+        "start": "00:34:50",
+        "person": "PERSON H",
+        "end": "00:34:20",
+        "part": "And next week we will have pre study from PERSON L is planned to be on the agenda for for Thursday next week and also postal address validation service assessment done by second. Those are the plans we have. Second is going to ITAC junior on Monday with this. So that could of course postpone it and I know PERSON L is also finalizing everything but this is the plan topics for next week's agenda. Also be aware that on June 23rd we don't have ITAC.\r \r"
+    },
+    {
+        "start": "00:34:20",
+        "person": "PERSON B",
+        "end": "00:34:24",
+        "part": "It's it's a national holiday in Latvia, so we would be very few people in in the meeting.\r \r"
+    },
+    {
+        "start": "00:34:26",
+        "person": "PERSON A",
+        "end": "00:35:33",
+        "part": "And that's for today is just an open mic session. Anybody who has anything to raise in the ITAC, you're free to do so now.\r \r"
+    },
+    {
+        "start": "00:35:35",
+        "person": "PERSON A",
+        "end": "00:35:35",
+        "part": "Yep.\r \r"
+    },
+    {
+        "start": "00:35:34",
+        "person": "PERSON A",
+        "end": "00:35:56",
+        "part": "I have again going forward, I would like to see the North Star picture into the ITAC and just for information where we go to the portfolio Council, we also trying to highlight where we hit the must win battles or where we hit the strategies. You know the strategy 2024 if you can map it to that, it will make the session in portfolio Council so much easier.\r \r"
+    },
+    {
+        "start": "00:35:57",
+        "person": "PERSON A",
+        "end": "00:35:06",
+        "part": "So if we if it's possible as further add in you know, otherwise it's business that needs to explain where it fits into be strategy. But we need to provide them with a North Star fit.\r \r"
+    },
+    {
+        "start": "00:35:07",
+        "person": "PERSON A",
+        "end": "00:35:08",
+        "part": "Uh child them out.\r \r"
+    },
+    {
+        "start": "00:35:15",
+        "person": "PERSON G",
+        "end": "00:35:16",
+        "part": "Noted.\r \r"
+    },
+    {
+        "start": "00:35:20",
+        "person": "PERSON G",
+        "end": "00:35:26",
+        "part": "Nothing else. Thank you all for attending. Thanks for the good questions and the discussion. That's why we're here. See you next Thursday.\r \r"
+    },
+    {
+        "start": "00:35:27",
+        "person": "PERSON G",
+        "end": "00:35:28",
+        "part": "Thank you.\r \r"
+    },
+    {
+        "start": "00:35:29",
+        "person": "PERSON A",
+        "end": "00:35:29",
+        "part": "Alright.\r \r"
+    }
+]
