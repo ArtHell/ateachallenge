@@ -12,6 +12,7 @@ import { TeamsContext } from "../context";
 import moment from 'moment';
 import { AppContext } from '../context';
 import SharePopup from '../sharingPopup/sharePopup';
+import { deleteSummary } from '../../services/summaryService';
 
 export const Dashboard = (props) => {
   const [loading, setLoading] = useState(true);
@@ -49,6 +50,14 @@ export const Dashboard = (props) => {
     history.push("/edit-summary");
   };
 
+  const delSummary = async (i) => {
+    const summary = data[i].item;
+    const id = data[i].id;
+    await deleteSummary(id);
+    setData(data.filter(x => x.id !== id));
+    alert(`Summary for "${summary.meetingName}" has been deleted.`)
+  };
+
   return (
     <div style={{ paddingLeft: '280px', paddingRight: '280px', paddingTop: '20px' }}>
       
@@ -74,9 +83,8 @@ export const Dashboard = (props) => {
               <Button onClick={() => viewSummary(i)} iconOnly text icon={<EyeIcon />} title="View" />
               <Button onClick={() => editSummary(i)} iconOnly text icon={<EditIcon />} title="Edit" />
               <SharePopup triggerButton={<Button iconOnly text icon={<ShareGenericIcon />} title="Share" />} />
-              <Button iconOnly text icon={<TrashCanIcon />} title="Remove" />
+              <Button onClick={() => delSummary(i)} iconOnly text icon={<TrashCanIcon />} title="Remove" />
             </React.Fragment>
-
           } />} />
         </TableRow>)}
       </Table>
