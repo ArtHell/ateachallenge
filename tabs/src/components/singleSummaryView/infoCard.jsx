@@ -1,19 +1,18 @@
 import React from 'react';
 import '../singleSummaryView/singleSummaryView.css'
-import genSummary from './genSummary.json'
 
-const InfoCard = () => {
+const InfoCard = ({meetingName, meetingDate, meetingLink, participants}) => {
 
     return (
         <div className='card__info'>
-            <div className='info-name'>{genSummary.info.meetingName}</div>
-            <div className='info-date'>{genSummary.info.meetingDate}</div>
+            <div className='info-name'>{meetingName}</div>
+            <div className='info-date'>{meetingDate}</div>
             <div className='info-participants'>Participants:&nbsp;
-                    {genSummary.info.participants.map(participant =>
+                    {participants && participants.map(participant =>
                         <span key={participant}>{participant}, </span>
                     )}
             </div>
-            <div><a href="1">{genSummary.info.meetingLink}</a></div>
+            <div><a href="1">{meetingLink}</a></div>
         </div>
     );
 };

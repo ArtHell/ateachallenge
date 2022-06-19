@@ -46,7 +46,7 @@ export default function App() {
               <Route exact path="/config" component={TabConfig} />
               <Route exact path="/view-summary/:id" component={SummaryView} />
               <Route exact path="/edit-summary/:id" component={SummaryEdit} />
-          <Route exact path='/config-transcript' component={ConfigStep}/>
+              <Route exact path='/config-transcript' component={ConfigStep}/>
             </>
           </Router>
         </AppContext.Provider>

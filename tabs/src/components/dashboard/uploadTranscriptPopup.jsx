@@ -6,17 +6,14 @@ import { uploadTranscript } from '../../services/transcriptService';
 import { AppContext } from '../context';
 // import { useState } from 'react';
 
-const DialogExample = ({ }) => {
+const UploadTranscriptPopup = ({}) => {
 
   const [meetName, setMeetName] = useState('')
-  const [meetType, setMeetType] = useState('')
+  const [meetLink, setMeetLink] = useState('')
   const [file, setFile] = useState();
   const [context, setContext] = useContext(AppContext);
 
   let history = useHistory();
-  function handleClick() {
-    history.push("/tab");
-  }
 
   const submitForm = async () => {
     const formData = new FormData();
@@ -26,20 +23,22 @@ const DialogExample = ({ }) => {
       file.name
     );
     const result = await uploadTranscript(formData);
-    setContext({...context, transcript: result.data});
-    history.push("/configuration");
-  }
-
+    const data = result.data.map(x => ({...x, part: x.part.split('\r').join('')}))
+    const participants = [...new Set(data.map(x => x.person))];
+    setContext({...context, transcript: data, meetingName: meetName, meetingLink: meetLink, participants: participants});
+    history.push("/config-transcript");
+  };
 
   return (
     <Dialog
       cancelButton="Cancel"
-      confirmButton={<Button content="Start" primary fluid onClick={submitForm} />}
+      confirmButton={'Next'}
       header="Transcript"
-      content={<UploadForm setName={setMeetName} setType={setMeetType} setFile={setFile} />}
+      content={<UploadForm setName={setMeetName} setLink={setMeetLink} setFile={setFile} />}
       trigger={<Button content="Create summary" primary style={{ width: '100%' }} />}
+      onConfirm={submitForm}
     />
   )
 }
 
-export default DialogExample
+export default UploadTranscriptPopup

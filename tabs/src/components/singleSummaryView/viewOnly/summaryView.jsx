@@ -1,16 +1,20 @@
-import React from 'react';
+import React, { useContext, useEffect } from 'react';
 import '../singleSummaryView.css'
-import Sectioncard from './sectionCard';
+import SectionCard from './sectionCard';
 import InfoCard from '../infoCard'
-import genSummary from '../genSummary.json'
+import { AppContext } from '../../context';
 
 const SummaryView = () => {
-    return (
-        <div className='summary-view'>
-            <InfoCard />
-            {genSummary.sections.map(sec => <Sectioncard key={sec.sectionName} section={sec}/>)}
-        </div>
-    );
+  const [context, setContext] = useContext(AppContext);
+
+  return (
+    <div className='summary-view'>
+      {Boolean(context) && <React.Fragment>
+        <InfoCard meetingName={context.meetingName} meetingLink={context.meetingLink} meetingDate={context.meetingDate} participants={context.participants} />
+        {context.summary.map(sec => <SectionCard key={sec.sectionName} section={sec} />)}
+      </React.Fragment>}
+    </div>
+  );
 };
 
 export default SummaryView;
